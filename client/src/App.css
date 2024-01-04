@@ -11,9 +11,9 @@
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 10px 158px 10px 158px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
- 
+  /* Add a subtle box shadow */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari support */ 
 }
 
 .navbar {
@@ -21,6 +21,7 @@
   justify-content: center;
   padding-right: 5%;
   background-color: transparent;
+  
 }
 
 .navbar li {
@@ -49,6 +50,7 @@
   padding: 10px;
   margin-top: 8%;
   margin-left: 10%;
+  
 }
 
 .HomePageText {
@@ -66,6 +68,8 @@
 
 .homepage {
   background-color: transparent;
+  
+
 }
 
 .HomePageText p {
@@ -83,17 +87,18 @@
 
 .cta {
   background-color: transparent;
-  color: rgb(193, 144, 75);
+  color: rgb(241, 239, 236);
   font-size: small;
   text-decoration: none;
   padding: 10px 20px;
-  border: 1px solid green;
-  border-radius: 5px;
+  border: 1px solid rgb(241, 239, 236);
+ border-radius: 5px 20px 5px 20px;
+  transition: all ease-in-out cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .cta:hover {
-  background-color: #3e8e41;
-  color: white;
+  background-color: white;
+  color: black;
   font-style: normal;
 }
 
@@ -116,4 +121,29 @@
 
 .imageINtwo {
   background-color: transparent;
+  height: 350px;
+  width: 350px;
+}
+
+.about_us p{
+  font-style: italic;
+  font-weight: bold;
+  margin-top: -1%;
+  font-size: clamp(1.5rem, 8vw - 2rem, 3rem);
+}
+.about_us a{
+  background-color: transparent;
+  color: rgb(241, 239, 236);
+  font-size: small;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid rgb(241, 239, 236);
+  border-radius: 5px 20px 5px 20px;
+  transition: all ease-in-out cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.about_us a:hover {
+  background-color: white;
+  color: black;
+  font-style: normal;
 }
