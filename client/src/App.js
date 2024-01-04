@@ -2,7 +2,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './Components/Navbar';
-import logo from './Animation - 1704301535155.gif'
+
 import AboutUs from './Components/AboutUs';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import HomePage from './Components/HomePage';

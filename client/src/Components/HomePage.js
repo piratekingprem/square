@@ -1,5 +1,5 @@
 import React from 'react'
-
+import inner from '../623c11f3-4629-4936-a141-7fd32ba14523.gif'
 function HomePage() {
   return (
     <div className='homepage'>
@@ -10,7 +10,9 @@ function HomePage() {
             <a href="#" class="cta">Explore Now</a>
             
           </div>
-          <div class="grid-item">2</div>
+          <div class="grid-item ">
+            <img src={inner} className='imageINtwo'/>
+          </div>
         </div>
     </div>
   )

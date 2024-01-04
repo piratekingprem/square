@@ -3,13 +3,14 @@
 .box {
   border: 1px solid #ccc;
   padding: 20px;
-  margin: 20px;
-  background-color: rgb(255, 255, 255, 0.2);
-  ;
-  border-radius: 10px;
-  /* Add rounded corners */
+  width: 79%;
+  margin-left: 45%;
+  margin: 24px 0px 0px 117px;
+  /* margin-right: 92%; */
+  left: 5%;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px 158px 10px 158px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  
   /* Add a subtle box shadow */
 }
 
@@ -17,7 +18,7 @@
   display: flex;
   justify-content: center;
   padding-right: 5%;
-  background-color: transparent;
+  background-color: rgb(255, 255, 255, 0.2);
   ;
 }
 
@@ -30,6 +31,7 @@
 .navbar a {
   text-decoration: none;
   background-color: transparent;
+  color: black;
 }
 
 .logo p {
@@ -55,14 +57,19 @@
   /* font-size: 40px; */
   font-size: clamp(1.5rem, 8vw - 2rem, 3rem);
 }
-.aboutus,.contact,.product {
+
+.aboutus,
+.contact,
+.product {
   background-color: transparent;
 }
-.homepage{
+
+.homepage {
   background-color: transparent;
   
 
 }
+
 .HomePageText p {
   font-size: small;
   font-weight: lighter;
@@ -78,7 +85,7 @@
 
 .cta {
   background-color: transparent;
-  color: green;
+  color: rgb(193, 144, 75);
   font-size: small;
   text-decoration: none;
   padding: 10px 20px;
@@ -91,8 +98,25 @@
   color: white;
   font-style: normal;
 }
-.homePage_gif{
-  width: 60% ;
+
+.homePage_gif {
+  width: 60%;
+  background-color: transparent;
+}
+
+.card {
+  height: 27%;
+  backdrop-filter: blur(25px) saturate(145%);
+  -webkit-backdrop-filter: blur(25px) saturate(145%);
+  background-color: rgba(206, 8, 8, 0);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  -webkit-box-shadow: 0px 11px 63px 23px rgba(222, 222, 222, 1);
+  -moz-box-shadow: 0px 11px 63px 23px rgba(222, 222, 222, 1);
+  box-shadow: 0px 0px 74px 11px rgba(222, 222, 222, 1);
+}
+
+.imageINtwo {
   background-color: transparent;
   
 }
