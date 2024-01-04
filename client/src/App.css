@@ -11,16 +11,15 @@
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 10px 158px 10px 158px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
- 
+  /* Add a subtle box shadow */
 }
 
 .navbar {
   display: flex;
   justify-content: center;
   padding-right: 5%;
-  background-color: transparent;
+  background-color: rgb(255, 255, 255, 0.2);
+  ;
 }
 
 .navbar li {
@@ -49,6 +48,7 @@
   padding: 10px;
   margin-top: 8%;
   margin-left: 10%;
+  
 }
 
 .HomePageText {
@@ -66,6 +66,8 @@
 
 .homepage {
   background-color: transparent;
+  
+
 }
 
 .HomePageText p {
@@ -116,4 +118,5 @@
 
 .imageINtwo {
   background-color: transparent;
+  
 }
