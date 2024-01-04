@@ -1,4 +1,5 @@
 /* App.css */
+
 .box {
   border: 1px solid #ccc;
   padding: 20px;
@@ -8,6 +9,7 @@
   border-radius: 10px;
   /* Add rounded corners */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
   /* Add a subtle box shadow */
 }
 
@@ -15,7 +17,7 @@
   display: flex;
   justify-content: center;
   padding-right: 5%;
-  background-color: rgb(255, 255, 255, 0.2);
+  background-color: transparent;
   ;
 }
 
@@ -44,6 +46,7 @@
   padding: 10px;
   margin-top: 8%;
   margin-left: 10%;
+  
 }
 
 .HomePageText {
@@ -57,6 +60,8 @@
 }
 .homepage{
   background-color: transparent;
+  
+
 }
 .HomePageText p {
   font-size: small;
@@ -89,4 +94,5 @@
 .homePage_gif{
   width: 60% ;
   background-color: transparent;
+  
 }
