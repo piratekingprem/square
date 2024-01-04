@@ -3,12 +3,14 @@
 .box {
   border: 1px solid #ccc;
   padding: 20px;
-  margin: 20px;
+  width: 79%;
+  margin-left: 45%;
+  margin: 24px 0px 0px 117px;
+  /* margin-right: 92%; */
+  left: 5%;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
-  /* Add backdrop filter for blur effect */
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
  
@@ -81,7 +83,7 @@
 
 .cta {
   background-color: transparent;
-  color: green;
+  color: rgb(193, 144, 75);
   font-size: small;
   text-decoration: none;
   padding: 10px 20px;
