@@ -1,5 +1,5 @@
 import React from 'react'
-import inner from '../623c11f3-4629-4936-a141-7fd32ba14523.gif'
+import inner from '../WhatsApp_Image_2024-01-04_at_9.24.23_PM-removebg-preview.png'
 function HomePage() {
   return (
     <div className='homepage'>
