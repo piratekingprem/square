@@ -49,13 +49,20 @@
 .HomePageText {
   font-style: italic;
   font-weight: bold;
-  font-size: 40px;
+  /* font-size: 40px; */
+  font-size: clamp(1.5rem, 8vw - 2rem, 3rem);
 }
-
+.aboutus,.contact,.product {
+  background-color: transparent;
+}
+.homepage{
+  background-color: transparent;
+}
 .HomePageText p {
   font-size: small;
   font-weight: lighter;
   font-style: normal;
+  background-color: transparent;
 }
 
 .grid-item {
@@ -77,6 +84,7 @@
 .cta:hover {
   background-color: #3e8e41;
   color: white;
+  font-style: normal;
 }
 .homePage_gif{
   width: 60% ;
