@@ -1,22 +1,24 @@
 /* App.css */
+
 .box {
   border: 1px solid #ccc;
   padding: 20px;
   margin: 20px;
-  background-color: rgb(255, 255, 255, 0.2);
-  ;
+  background-color: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
-  /* Add rounded corners */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  /* Add a subtle box shadow */
+
+  /* Add backdrop filter for blur effect */
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+ 
 }
 
 .navbar {
   display: flex;
   justify-content: center;
   padding-right: 5%;
-  background-color: rgb(255, 255, 255, 0.2);
-  ;
+  background-color: transparent;
 }
 
 .navbar li {
@@ -110,6 +112,6 @@
   box-shadow: 0px 0px 74px 11px rgba(222, 222, 222, 1);
 }
 
-.imageINtwo{
+.imageINtwo {
   background-color: transparent;
 }
