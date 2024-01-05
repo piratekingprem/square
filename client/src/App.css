@@ -5,7 +5,7 @@
   padding: 20px;
   width: 79%;
   margin-left: 45%;
-  margin: 24px 0px 0px 117px;
+  margin: 24px 0px 500px 117px;
   /* margin-right: 92%; */
   left: 5%;
   background-color: rgba(255, 255, 255, 0.2);
@@ -35,7 +35,9 @@
   background-color: transparent;
   color: black;
 }
-
+.navbar a.current{
+  background-color: rgb(236, 236, 23)
+}
 .logo p {
   font-size: large;
   margin-left: -300px;
@@ -92,7 +94,7 @@
   text-decoration: none;
   padding: 10px 20px;
   border: 1px solid rgb(241, 239, 236);
- border-radius: 5px 20px 5px 20px;
+  border-radius: 5px 20px 5px 20px;
   transition: all ease-in-out cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
@@ -139,11 +141,15 @@
   padding: 10px 20px;
   border: 1px solid rgb(241, 239, 236);
   border-radius: 5px 20px 5px 20px;
-  transition: all ease-in-out cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: transform .2s;
+
 }
 
-.about_us a:hover {
+.about_us a:hover{
   background-color: white;
   color: black;
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
   font-style: normal;
 }

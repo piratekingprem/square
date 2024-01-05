@@ -1,8 +1,10 @@
 
 
 body {
-  background: url('WhatsApp Image 2024-01-04 at 5.19.26 PM.jpeg') no-repeat center center fixed;
+  background: url('comp_1.gif') no-repeat center center fixed;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   margin: 0; 
   padding: 0;
 }
