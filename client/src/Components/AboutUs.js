@@ -2,7 +2,7 @@ import React from 'react'
 
 function AboutUs() {
   return (
-    <div className='aboutus'>
+    <div className='aboutus box'>
       <p style={{margin: '4% 0% -7% 14%',fontWeight: 'bold',fontSize: '18px'}}>About Us</p>
       <div class="grid-container">
         <div class="grid-item about_us">
@@ -14,5 +14,5 @@ function AboutUs() {
     </div>
   )
 }
-
+  
 export default AboutUs
