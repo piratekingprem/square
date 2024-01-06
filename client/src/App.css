@@ -5,14 +5,14 @@
   padding: 20px;
   width: 79%;
   margin-left: 45%;
-  margin: 24px 0px 500px 117px;
+  margin: 24px 0px 200px 117px;
   /* margin-right: 92%; */
   left: 5%;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 10px 158px 10px 158px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   /* Add a subtle box shadow */
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(80px);
   -webkit-backdrop-filter: blur(10px); /* Safari support */ 
 }
 
@@ -33,15 +33,16 @@
 .navbar a {
   text-decoration: none;
   background-color: transparent;
-  color: black;
+  color: white;
 }
-.navbar a.current{
+.navbar a:a{
   background-color: rgb(236, 236, 23)
 }
 .logo p {
   font-size: large;
   margin-left: -300px;
   margin-top: 0;
+  color:white;
   background-color: transparent;
 }
 
@@ -86,6 +87,7 @@
   padding: 20px;
   text-align: left;
 }
+
 
 .cta {
   background-color: transparent;
@@ -152,4 +154,32 @@
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5); 
   font-style: normal;
+}
+.HomePageCards{
+  display: flex;
+}
+.HomePageCard{
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  margin-left: 45%;
+  margin: 24px 0px 500px 117px;
+  left: 5%;
+  border-radius: 10px ;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); 
+}
+.HomePageCard .home_card_heading{
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  
+}
+.home_card_body{
+  margin-left: 5%;
+  color: white;
 }
