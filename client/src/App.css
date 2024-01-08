@@ -33,7 +33,7 @@
 .navbar a {
   text-decoration: none;
   background-color: transparent;
-  color: white;
+  color: black;
 }
 .navbar a:a{
   background-color: rgb(236, 236, 23)

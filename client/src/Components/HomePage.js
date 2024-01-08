@@ -1,10 +1,12 @@
 import React from 'react'
 import inner from '../WhatsApp_Image_2024-01-04_at_9.24.23_PM-removebg-preview.png'
+import Navbar from './Navbar'
 
 function HomePage() {
   return (
    <>
     <div className='homepage box'>
+      <Navbar/>
       <div class="grid-container">
           <div class="grid-item HomePageText">
             Your all in one it <br/> solutions.......
