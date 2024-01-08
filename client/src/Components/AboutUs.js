@@ -1,8 +1,10 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 function AboutUs() {
   return (
     <div className='aboutus box'>
+      <Navbar/>
       <p style={{margin: '4% 0% -7% 14%',fontWeight: 'bold',fontSize: '18px'}}>About Us</p>
       <div class="grid-container">
         <div class="grid-item about_us">
