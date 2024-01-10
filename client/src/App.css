@@ -42,7 +42,7 @@
   font-size: large;
   margin-left: -300px;
   margin-top: 0;
-  color:white;
+  color:black;
   background-color: transparent;
 }
 
@@ -144,7 +144,6 @@
   border: 1px solid rgb(241, 239, 236);
   border-radius: 5px 20px 5px 20px;
   transition: transform .2s;
-
 }
 
 .about_us a:hover{
@@ -177,9 +176,49 @@
   font-size: large;
   font-weight: bold;
   color: white;
-  
 }
 .home_card_body{
   margin-left: 5%;
   color: white;
+}
+.contact-form {
+  margin-left: 40%;
+}
+
+.contact_page_item {
+  margin-left: -35%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px; /* Adjust the gap between grid items */
+}
+
+.contact_items {
+  margin-top: 10px; /* Adjust the top margin for better spacing */
+}
+
+.contact_us_label {
+  display: block;
+  font-family:'Times New Roman', Times, serif;
+  margin-bottom: 5px; /* Add some space between label and input */
+}
+
+.contact_us_input {
+  height: 28px;
+  margin-top: 3%;
+  width: 90%;
+  border: 1px solid white;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 10px;
+  margin-bottom: 10%;
+}
+
+.contact_us_input:focus{
+  border-radius: 0%;
+  outline: none;
+  background-color: var(--lgtr-blue);
+}
+
+.contact_us_input::placeholder{
+  color: rgb(190, 188, 188);
 }
