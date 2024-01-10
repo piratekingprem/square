@@ -13,7 +13,8 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   /* Add a subtle box shadow */
   backdrop-filter: blur(80px);
-  -webkit-backdrop-filter: blur(10px); /* Safari support */ 
+  -webkit-backdrop-filter: blur(10px);
+  /* Safari support */
 }
 
 .navbar {
@@ -21,7 +22,7 @@
   justify-content: center;
   padding-right: 5%;
   background-color: transparent;
-  
+
 }
 
 .navbar li {
@@ -35,14 +36,16 @@
   background-color: transparent;
   color: black;
 }
-.navbar a:a{
+
+.navbar a:a {
   background-color: rgb(236, 236, 23)
 }
+
 .logo p {
   font-size: large;
   margin-left: -300px;
   margin-top: 0;
-  color:black;
+  color: black;
   background-color: transparent;
 }
 
@@ -53,7 +56,7 @@
   padding: 10px;
   margin-top: 8%;
   margin-left: 10%;
-  
+
 }
 
 .HomePageText {
@@ -71,7 +74,7 @@
 
 .homepage {
   background-color: transparent;
-  
+
 
 }
 
@@ -129,13 +132,14 @@
   width: 350px;
 }
 
-.about_us p{
+.about_us p {
   font-style: italic;
   font-weight: bold;
   margin-top: -1%;
   font-size: clamp(1.5rem, 8vw - 2rem, 3rem);
 }
-.about_us a{
+
+.about_us a {
   background-color: transparent;
   color: rgb(241, 239, 236);
   font-size: small;
@@ -146,18 +150,22 @@
   transition: transform .2s;
 }
 
-.about_us a:hover{
+.about_us a:hover {
   background-color: white;
   color: black;
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5); 
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.5);
   font-style: normal;
 }
-.HomePageCards{
+
+.HomePageCards {
   display: flex;
 }
-.HomePageCard{
+
+.HomePageCard {
   border: 1px solid #ccc;
   padding: 20px;
   display: flex;
@@ -166,21 +174,24 @@
   margin-left: 45%;
   margin: 24px 0px 500px 117px;
   left: 5%;
-  border-radius: 10px ;
+  border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.2);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
 }
-.HomePageCard .home_card_heading{
+
+.HomePageCard .home_card_heading {
   font-size: large;
   font-weight: bold;
   color: white;
 }
-.home_card_body{
+
+.home_card_body {
   margin-left: 5%;
   color: white;
 }
+
 .contact-form {
   margin-left: 40%;
 }
@@ -189,17 +200,20 @@
   margin-left: -35%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px; /* Adjust the gap between grid items */
+  gap: 20px;
+  /* Adjust the gap between grid items */
 }
 
 .contact_items {
-  margin-top: 10px; /* Adjust the top margin for better spacing */
+  margin-top: 10px;
+  /* Adjust the top margin for better spacing */
 }
 
 .contact_us_label {
   display: block;
-  font-family:'Times New Roman', Times, serif;
-  margin-bottom: 5px; /* Add some space between label and input */
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 5px;
+  /* Add some space between label and input */
 }
 
 .contact_us_input {
@@ -213,12 +227,79 @@
   margin-bottom: 10%;
 }
 
-.contact_us_input:focus{
+.contact_us_input:focus {
   border-radius: 0%;
   outline: none;
   background-color: var(--lgtr-blue);
 }
 
-.contact_us_input::placeholder{
+.contact_us_input::placeholder {
   color: rgb(190, 188, 188);
+}
+
+/* Responsive */
+
+@media screen and (max-width: 376px) {
+
+  /* Media query for screens smaller than 768px */
+
+
+  .HomePageCard {
+    width: 100%;
+    /* Full width for small screens */
+  }
+
+  .logo p {
+    font-size: large;
+    margin-left: -156px;
+    margin-top: 0;
+    color: black;
+    background-color: transparent;
+  }
+
+  .grid-container {
+    grid-template-rows: 2fr;
+  }
+
+  .imageINtwo {
+    background-color: transparent;
+    height: 100px;
+    width: 100px;
+  }
+
+  .box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 175%;
+    margin-left: 45%;
+    margin: 23px 0px 200px 28px;
+    /* margin-right: 92%; */
+    left: 5%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px 158px 10px 158px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(80px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  .HomePageCards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .HomePageCard {
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: 45%;
+    margin: 2px 152px;
+    left: 5%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
 }
