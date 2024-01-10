@@ -279,3 +279,38 @@
     margin: 10px auto; /* Center the card and add a bit of margin */
   }
 }
+@media screen and (max-width: 420px) {
+  .HomePageCard {
+    width: 100%;
+    margin-left: 0; /* Remove unnecessary left margin */
+  }
+
+  .logo p {
+    font-size: medium; /* Adjust font size for better readability */
+    margin-left: 0;
+    margin-bottom: 10px; /* Add space between logo and other elements */
+  }
+
+  .grid-container {
+    grid-template-rows: 1fr; /* Single column layout for small screens */
+  }
+
+  .imageINtwo {
+    height: 100px;
+    width: 100px;
+  }
+
+  .box {
+    width: 90%; /* Adjusted width for better responsiveness */
+    margin: 10px auto; /* Center the box and add a bit of margin */
+  }
+
+  .HomePageCards {
+    flex-direction: column;
+  }
+
+  .HomePageCard {
+    width: 90%; /* Adjusted width for better responsiveness */
+    margin: 10px auto; /* Center the card and add a bit of margin */
+  }
+}
