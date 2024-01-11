@@ -266,7 +266,7 @@
   }
 
   .box {
-    width: 90%; /* Adjusted width for better responsiveness */
+    width: 80%; /* Adjusted width for better responsiveness */
     margin: 10px auto; /* Center the box and add a bit of margin */
   }
 
@@ -301,7 +301,7 @@
   }
 
   .box {
-    width: 90%; /* Adjusted width for better responsiveness */
+    width: 80%; /* Adjusted width for better responsiveness */
     margin: 10px auto; /* Center the box and add a bit of margin */
   }
 
@@ -310,7 +310,7 @@
   }
 
   .HomePageCard {
-    width: 90%; /* Adjusted width for better responsiveness */
+    width: 80%; /* Adjusted width for better responsiveness */
     margin: 10px auto; /* Center the card and add a bit of margin */
   }
 }
